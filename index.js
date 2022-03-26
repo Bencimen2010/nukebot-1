@@ -50,4 +50,4 @@ bot.on("ready", async () => {
 
 
 
-bot.login(config.token)
+bot.login(process.env.BOT_TOKEN)
