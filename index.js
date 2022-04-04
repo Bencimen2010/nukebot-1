@@ -41,7 +41,7 @@ bot.on("message", async (message) => {
 ////////////////////////////////////////////////////////////////////////
 
 bot.on("ready", async () => {
-    console.log("NukeBot készen áll!")
+    console.log("NukeBot készen ál!")
 
     guildMemberAdd(bot)
     guildMemberRemove(bot)
